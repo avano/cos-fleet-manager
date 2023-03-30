@@ -13,7 +13,7 @@ objects:
     aws_cloudwatch_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -45,7 +45,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to Amazon CloudWatch metrics.",
           "icon_href" : "TODO",
           "id" : "aws_cloudwatch_sink_0.1",
@@ -206,7 +206,7 @@ objects:
     aws_ddb_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -238,7 +238,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to Amazon DynamoDB NoSQL database service. The sent data inserts, updates, or deletes an item in the specified Amazon DynamoDB table.",
           "icon_href" : "TODO",
           "id" : "aws_ddb_sink_0.1",
@@ -406,7 +406,7 @@ objects:
     aws_ddb_streams_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -438,7 +438,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Receive data from Amazon DynamoDB Streams.",
           "icon_href" : "TODO",
           "id" : "aws_ddb_streams_source_0.1",
@@ -611,7 +611,7 @@ objects:
     aws_kinesis_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -643,7 +643,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to Amazon Kinesis.",
           "icon_href" : "TODO",
           "id" : "aws_kinesis_sink_0.1",
@@ -820,7 +820,7 @@ objects:
     aws_kinesis_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -852,7 +852,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Receive data from Amazon Kinesis.",
           "icon_href" : "TODO",
           "id" : "aws_kinesis_source_0.1",
@@ -1035,7 +1035,7 @@ objects:
     aws_lambda_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -1067,7 +1067,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to an Amazon Lambda function.",
           "icon_href" : "TODO",
           "id" : "aws_lambda_sink_0.1",
@@ -1217,7 +1217,7 @@ objects:
     aws_s3_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -1249,7 +1249,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to an Amazon S3 bucket.",
           "icon_href" : "TODO",
           "id" : "aws_s3_sink_0.1",
@@ -1421,7 +1421,7 @@ objects:
     aws_s3_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -1453,7 +1453,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Receive data from an Amazon S3 bucket.",
           "icon_href" : "TODO",
           "id" : "aws_s3_source_0.1",
@@ -1644,7 +1644,7 @@ objects:
     aws_ses_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -1676,7 +1676,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send email through the Amazon Simple Email Service (SES).",
           "icon_href" : "TODO",
           "id" : "aws_ses_sink_0.1",
@@ -1827,7 +1827,7 @@ objects:
     aws_sns_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -1859,7 +1859,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to an Amazon Simple Notification Service (SNS) topic.",
           "icon_href" : "TODO",
           "id" : "aws_sns_sink_0.1",
@@ -2026,7 +2026,7 @@ objects:
     aws_sqs_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -2058,7 +2058,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to Amazon Simple Queue Service (SQS).",
           "icon_href" : "TODO",
           "id" : "aws_sqs_sink_0.1",
@@ -2238,7 +2238,7 @@ objects:
     aws_sqs_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -2270,7 +2270,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Receive data from Amazon Simple Queue Service (SQS).",
           "icon_href" : "TODO",
           "id" : "aws_sqs_source_0.1",
@@ -5793,7 +5793,36 @@ objects:
     data_generator_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
+            "shard_metadata" : {
+              "annotations" : {
+                "trait.camel.apache.org/container.request-cpu" : "0.20",
+                "trait.camel.apache.org/container.request-memory" : "128M",
+                "trait.camel.apache.org/deployment.progress-deadline-seconds" : "30"
+              },
+              "connector_image" : "quay.io/rhoas/cos-connector-data-generator:main-6333bcc62918539728ce18c7c3eaadb39e10fda1",
+              "connector_revision" : 84,
+              "connector_type" : "source",
+              "consumes" : "application/octet-stream",
+              "error_handler_strategy" : "stop",
+              "kamelets" : {
+                "adapter" : {
+                  "name" : "timer-source",
+                  "prefix" : "timer"
+                },
+                "kafka" : {
+                  "name" : "cos-kafka-sink",
+                  "prefix" : "kafka"
+                }
+              },
+              "operators" : [ {
+                "type" : "camel-connector-operator",
+                "version" : "[1.0.0,2.0.0)"
+              } ],
+              "produces" : "application/octet-stream"
+            }
+          },
+          "telegram" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -5825,7 +5854,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "telegram", "aws" ],
           "description" : "A data generator (for development and testing purposes).",
           "icon_href" : "TODO",
           "id" : "data_generator_source_0.1",
@@ -8601,7 +8630,7 @@ objects:
     telegram_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "telegram" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -8633,7 +8662,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "telegram" ],
           "description" : "Send a message to a Telegram chat using your Telegram bot as sender. To create a bot, use your Telegram app to contact the @botfather account.",
           "icon_href" : "TODO",
           "id" : "telegram_sink_0.1",
@@ -8763,7 +8792,7 @@ objects:
     telegram_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "telegram" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -8795,7 +8824,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "telegram" ],
           "description" : "Receive all messages that people send to your Telegram bot.",
           "icon_href" : "TODO",
           "id" : "telegram_source_0.1",
@@ -8927,7 +8956,7 @@ objects:
     aws_redshift_sink_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -8959,7 +8988,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Send data to an Amazon Redshift Database.",
           "icon_href" : "TODO",
           "id" : "aws_redshift_sink_0.1",
@@ -9113,7 +9142,7 @@ objects:
     aws_redshift_source_0.1.json: |-
       {
         "channels" : {
-          "stable" : {
+          "aws" : {
             "shard_metadata" : {
               "annotations" : {
                 "trait.camel.apache.org/container.request-cpu" : "0.20",
@@ -9145,7 +9174,7 @@ objects:
         },
         "connector_type" : {
           "capabilities" : [ "data_shape", "error_handler", "processors" ],
-          "channels" : [ "stable" ],
+          "channels" : [ "aws" ],
           "description" : "Query data from an Amazon Redshift Database.",
           "icon_href" : "TODO",
           "id" : "aws_redshift_source_0.1",
